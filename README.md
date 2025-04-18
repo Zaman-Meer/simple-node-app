@@ -1,5 +1,7 @@
 A simple Node.js backend application with health check and info endpoints.
 
+App
+
 ## Features
 
 - Health check endpoint (`/health`)
