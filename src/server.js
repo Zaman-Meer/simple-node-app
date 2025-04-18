@@ -23,9 +23,9 @@ app.get("/info", (req, res) => {
     nodeVersion: process.version,
     platform: process.platform,
     hostname: os.hostname(),
-    uptime: process.uptime(),
-    memoryUsage: process.memoryUsage(),
-    cpus: os.cpus().length,
+    // uptime: process.uptime(),
+    // memoryUsage: process.memoryUsage(),
+    // cpus: os.cpus().length,
   });
 });
 
