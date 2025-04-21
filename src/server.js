@@ -22,7 +22,7 @@ app.get("/info", (req, res) => {
     version: "1.0.0",
     nodeVersion: process.version,
     platform: process.platform,
-    hostname: os.hostname(),
+    // hostname: os.hostname(),
     // uptime: process.uptime(),
     // memoryUsage: process.memoryUsage(),
     // cpus: os.cpus().length,
